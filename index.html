@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khairpur Parks and Playgrounds</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header>
+        <p>FA23-BRG-029 · Web GIS</p>
+        <h1>Khairpur Parks and Playgrounds</h1>
+      </header>
+
+      <section class="notice">
+        <strong>Sample data:</strong> 25 demonstration points (15 parks and 10 playgrounds).
+        Names and locations are not verified.
+      </section>
+
+      <section class="legend">
+        <span><i class="dot park"></i> Park</span>
+        <span><i class="dot playground"></i> Playground</span>
+      </section>
+
+      <p id="status">Connecting to the database…</p>
+      <div id="map"></div>
+      <p class="attribution">Map tiles © OpenStreetMap contributors.</p>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
